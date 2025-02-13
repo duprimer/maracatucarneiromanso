@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carneiro Manso</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/ind/style.css">
+    <link rel="stylesheet" href="style/midea-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+
+    <!-- 🔹 HERO SECTION -->
+    <section class="hero">
+        <img src="/imagens/banner1.png" alt="Imagem Inicial">
+        <div class="scroll-down">
+            <a href="#conteudo"><span class="material-symbols-outlined">expand_more</span></a>
+        </div>
+    </section>
+
+    <!-- 🔹 CONTEÚDO PRINCIPAL -->
+    <div id="conteudo">
+        <header>
+            <div class="header-content">
+                <h1 class="left-text">MARACATU</h1>
+                <img src="/logos/logo.jpg" alt="Logo do Maracatu Carneiro Manso">
+                <h1 class="right-text">CARNEIRO MANSO</h1>
+            </div>
+            <span id="burguer" class="material-symbols-outlined" onclick="toggleMenu()">menu</span>
+        </header>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="premiacoes.html">Premiações</a></li>
+                <li><a href="agenda.html">Agenda</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section>
+                <h2>Bem-vindo ao Maracatu Carneiro Manso</h2>
+                <p>Conheça a tradição do Maracatu e sua história.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Maracatu Carneiro Manso - Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+
+    <main>
+
+        <article> 
+            <div>
+
+            <h1>PREMIAÇÕES</h1>
+
+            <hr>
+
+
+            <div id="cards1" class="containerpre">
+                <div class="item large">1</div>
+                <div class="item small">2</div>
+                <div class="item small">3</div>
+                <div class="item small">4</div>
+                <div class="item small">5</div>
+                <div class="item small">6</div>
+                <div class="item small">7</div>
+            
+            </div>
+
+         </div>
+
+         <h1>Quem somos nós</h1>
+
+            <hr>
+
+         <section class="container2">
+            
+            
+   
+            <img class="imagem1" src="logos/logo.png" alt="Escudo do Briquedo" width="400">
+   
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Facere modi sint quae eligendi impedit dolores dolorem voluptas i
+               nventore voluptatem a! Molestiae itaque fugiat quibusdam nostrum 
+               tempora, ratione omnis vero dolores. Lorem ipsum dolor sit amet consectetur 
+               adipisicing elit. Facere modi sint quae eligendi impedit dolores 
+               dolorem voluptas inventore voluptatem a! Molestiae itaque fugiat 
+               quibusdam nostrum 
+               tempora, ratione omnis vero dolores.Lorem ipsum dolor sit amet 
+               consectetur adipisicing elit. 
+               Facere modi sint quae eligendi impedit dolores dolorem voluptas i
+               nventore voluptatem a! Molestiae itaque fugiat quibusdam nostrum 
+               tempora, ratione omnis vero dolores.
+           </p>
+   
+        </section>
+         
+        
+        
+        
+        </article>
+
+
+
+        <section>
+            <h2>Bem-vindo ao Maracatu Carneiro Manso</h2>
+            <p>Conheça a tradição do Maracatu e sua história.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Maracatu Carneiro Manso - Todos os direitos reservados.</p>
+    </footer>
+
+    
+<script>
+function clickmenu(){   
+        if(itens.style.display == 'block'){
+            itens.style.display ='none'
+        } else {
+      
+            itens.style.display = 'block'
+        }  
+    }
+
+    function mudouTamanho(){
+        if(window.innerWidth >= 800){
+            itens.style.display= 'block'
+        } else {
+            itens.style.display = 'none'
+        }
+    }
+
+    function selectCard(card) {
+    // Remover a classe "selected" de todos os cards
+    const allCards = document.querySelectorAll('.item');
+    allCards.forEach(item => item.classList.remove('selected'));
+
+    // Adicionar a classe "selected" ao card clicado
+    card.classList.add('selected');
+}
+</script>
+
+ 
+    </script>
+
+</body>
+</html>
+
+
